@@ -23,6 +23,7 @@ operations = {
   "/":divide
 }
 def calculator():
+  ''' calculating given numbers'''
   print(logo1)
   num1=float(input("What's the first number?: "))
   for key in operations:
